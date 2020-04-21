@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+		<title>Outputs</title>
+		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
+		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
+		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
+		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+	</head>
+<body>
+	<noscript>
+		<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
+		<hr width="100%" noshade>
+	</noscript>
+<h1>Outputs</h1>
+<p class="Body"><strong>Outputs</strong> groups all outgoing channels.</p>
+<ul>
+<li><strong>Setpoint</strong> is the output of the interpolation function and should be mapped to the PID controller input.</li>
+<br></br>
+<li><strong>Lower Limit</strong> is the interpolated lower limit based on the current position used to determine if the Limit Violation flag should be set.</li>
+<br></br>
+<li><strong>Upper Limit</strong> is the interpolated upper limit based on the current position used to determine if the Limit Violation flag should be set.</li>
+<br></br>
+<li><strong>Limit Violation</strong> is set to True when the measured input channel for load exceeds the specified and interpolated upper and lower limits.</li>
+</ul>
+<p>Note: Upper Limit, Lower Limit and Limit Violation channels are only created if <strong>Create Limit Channels?</strong> is set at initialization of the custom device.
+</body>
+</html> 

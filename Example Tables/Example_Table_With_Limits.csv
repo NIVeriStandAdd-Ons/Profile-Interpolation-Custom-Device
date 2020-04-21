@@ -1,0 +1,12 @@
+Profile Name,Position (revs),Load (lbs),Lower Limit (lbs),Upper Limit (lbs)
+Profile #1,0,0,-10,10
+Profile #1,10,100,90,110
+Profile #1,20,200,180,220
+Profile #2,0,0,-10,10
+Profile #2,5,100,90,110
+Profile #2,10,200,180,220
+Profile #2,20,400,360,440
+Profile #3,10,30,20,33
+Profile #3,20,60,50,66
+Profile #4,10,40,30,50
+Profile #4,20,80,70,90

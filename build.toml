@@ -1,0 +1,35 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\profile-interpolation-custom-device'
+
+[projects.cd]
+path = 'Source\Profile Interpolation Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2019_release_branches = ["master",]
+
+[package]
+type = 'nipkg'
+package_output_dir = 'Built'
+name = 'profile-interpolation-custom-device-{veristand_version}'
+dev_xml_path = 'Source\Custom Device Profile Interpolation.xml'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
+
+[package.payload_map]
+'Built\Profile Interpolation' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Profile Interpolation'
+'Built\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
