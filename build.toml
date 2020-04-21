@@ -25,7 +25,6 @@ type = 'githubRelease'
 
 [package]
 type = 'nipkg'
-package_output_dir = 'Built'
 name = 'profile-interpolation-custom-device-{veristand_version}'
 dev_xml_path = 'Source\Custom Device Profile Interpolation.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
