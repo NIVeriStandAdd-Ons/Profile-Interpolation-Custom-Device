@@ -7,7 +7,7 @@
 Limit Checking Disabled
 
 **Functional Diagram**
-![Functional Diagram](https://github.com/jkreienh/Profile-Interpolation-Custom-Device/blob/master/Source/System%20Explorer/Docs/Functional%20Diagram%20wo%20Limits.PNG)
+![Functional Diagram](https://github.com/NIVeriStandAdd-Ons/Profile-Interpolation-Custom-Device/blob/master/Source/System%20Explorer/Docs/Functional%20Diagram%20wo%20Limits.PNG)
 
 **Example Table**:
 
@@ -27,7 +27,7 @@ Limit Checking Enabled
 Upper and lower limits can be defined for each point in the table to take advantage real-time limit checking of the measured load. Limit Enable and Load (Measured) channels are used to control the output of the limit check and results are indicated by the Load (Limit Violation) channel.
 
 **Functional Diagram**
-![Functional Diagram](https://github.com/jkreienh/Profile-Interpolation-Custom-Device/blob/master/Source/System%20Explorer/Docs/Functional%20Diagram%20w%20Limits.PNG)
+![Functional Diagram](https://github.com/NIVeriStandAdd-Ons/Profile-Interpolation-Custom-Device/blob/master/Source/System%20Explorer/Docs/Functional%20Diagram%20w%20Limits.PNG)
 
 **Example Table**
 
