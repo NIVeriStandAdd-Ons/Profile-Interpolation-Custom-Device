@@ -48,7 +48,7 @@ LabVIEW 2019
 
 ### Built Availability ###
 
-Builds available for VeriStand 2019 under releases.
+Builds available for VeriStand 2019 & 2020 under releases.
 
 ### Quality, Limitations ###
 

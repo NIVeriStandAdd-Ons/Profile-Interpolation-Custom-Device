@@ -22,6 +22,7 @@ build_spec = 'Engine Release'
 name = 'Master Release'
 type = 'githubRelease'
 2019_release_branches = ["master",]
+2020_release_branches = ["master",]
 
 [package]
 type = 'nipkg'
