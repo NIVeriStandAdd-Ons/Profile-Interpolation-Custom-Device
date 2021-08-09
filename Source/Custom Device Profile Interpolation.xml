@@ -5,7 +5,7 @@
     <eng>Profile Interpolation</eng>
     <loc>Profile Interpolation</loc>
   </AddMenu>
-  <Version>1.0.0</Version>
+  <Version>1.1.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>99</MaxOccurrence>
   <MainPageGUID>dc28dedc-b51d-49af-b49d-2a803ac116dd</MainPageGUID>
