@@ -44,11 +44,11 @@ Upper and lower limits can be defined for each point in the table to take advant
 
 ### LabVIEW Source Version ###
 
-LabVIEW 2020
+LabVIEW 2019
 
 ### Built Availability ###
 
-Builds available for VeriStand 2019 & 2020 under releases.
+Builds available for VeriStand 2019 under releases.
 
 ### Quality, Limitations ###
 
@@ -68,7 +68,7 @@ N/A
 
 This source code and all releases are provided under the Apache 2.0 open-source software license.
 
- Copyright 2021 National Instruments
+ Copyright 2020 National Instruments
  
 
   Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
