@@ -31,5 +31,5 @@ dev_xml_path = 'Source\Custom Device Profile Interpolation.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
 
 [package.payload_map]
-'Built\Profile Interpolation' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Profile Interpolation'
-'Built\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
+'Built\\Profile Interpolation' = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\Profile Interpolation'
+'Built\\Errors' = 'ni-paths-NISHAREDDIR\LabVIEW Run-Time\{veristand_version}\errors\English'
