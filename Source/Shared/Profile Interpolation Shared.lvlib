@@ -7,6 +7,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
 			<Item Name="Interpolation Settings.vi" Type="VI" URL="../SubVIs/Interpolation Settings.vi"/>
+			<Item Name="Order Custom Device Channel Value Table.vi" Type="VI" URL="../SubVIs/Order Custom Device Channel Value Table.vi"/>
 			<Item Name="Read Interpolation File.vi" Type="VI" URL="../SubVIs/Read Interpolation File.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
