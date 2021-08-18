@@ -7,6 +7,6 @@
 </nicomment>
 <nierror code="5000">
 Source: Profile Interpolation Custom Device
-The profile list detected in the Interpolation File does not match the "Profile Select" UI ring control. Open the System Explorer and the System Definition file to detect updates made in the Interpolation File and save both the System Definition and UI screens that contain the “Profile Select” UI ring control.
+The profile list detected in the Interpolation File does not match the Profile Select UI ring control. Open the System Explorer and the System Definition file to detect updates made in the Interpolation File and save both the System Definition and UI screens that contain the Profile Select UI ring control.
 </nierror>
 </nidocument>
